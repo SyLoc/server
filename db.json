@@ -1,96 +1,4 @@
 {
-  "users01": [
-    {
-      "id": 1,
-      "first_name": "Dallis",
-      "last_name": "Franklen",
-      "gender": "Female",
-      "domain": "ibm.com",
-      "email": "dallis.franklen@ibm.com",
-      "image": "http://dummyimage.com/160x184.png/ff4444/ffffff"
-    },
-    {
-      "id": 2,
-      "first_name": "Moise",
-      "last_name": "Malloy",
-      "gender": "Non-binary",
-      "domain": "eepurl.com",
-      "email": "moise.malloy@eepurl.com",
-      "image": "http://dummyimage.com/160x184.png/5fa2dd/ffffff"
-    },
-    {
-      "id": 3,
-      "first_name": "Waylin",
-      "last_name": "Campey",
-      "gender": "Male",
-      "domain": "last.fm",
-      "email": "waylin.campey@last.fm",
-      "image": "http://dummyimage.com/160x184.png/cc0000/ffffff"
-    },
-    {
-      "id": 4,
-      "first_name": "Lolly",
-      "last_name": "Caddens",
-      "gender": "Bigender",
-      "domain": "godaddy.com",
-      "email": "lolly.caddens@godaddy.com",
-      "image": "http://dummyimage.com/160x184.png/ff4444/ffffff"
-    },
-    {
-      "id": 5,
-      "first_name": "Zacharias",
-      "last_name": "Franzoli",
-      "gender": "Bigender",
-      "domain": "ucsd.edu",
-      "email": "zacharias.franzoli@ucsd.edu",
-      "image": "http://dummyimage.com/160x184.png/5fa2dd/ffffff"
-    },
-    {
-      "id": 6,
-      "first_name": "Josephine",
-      "last_name": "Danielian",
-      "gender": "Male",
-      "domain": "tuttocitta.it",
-      "email": "josephine.danielian@tuttocitta.it",
-      "image": "http://dummyimage.com/160x184.png/cc0000/ffffff"
-    },
-    {
-      "id": 7,
-      "first_name": "Zackariah",
-      "last_name": "Zannetti",
-      "gender": "Bigender",
-      "domain": "amazon.com",
-      "email": "zackariah.zannetti@amazon.com",
-      "image": "http://dummyimage.com/160x184.png/dddddd/000000"
-    },
-    {
-      "id": 8,
-      "first_name": "Tarrance",
-      "last_name": "Roddie",
-      "gender": "Polygender",
-      "domain": "webnode.com",
-      "email": "tarrance.roddie@webnode.com",
-      "image": "http://dummyimage.com/160x184.png/5fa2dd/ffffff"
-    },
-    {
-      "id": 9,
-      "first_name": "Julie",
-      "last_name": "Innis",
-      "gender": "Polygender",
-      "domain": "bandcamp.com",
-      "email": "julie.innis@bandcamp.com",
-      "image": "http://dummyimage.com/160x184.png/dddddd/000000"
-    },
-    {
-      "id": 10,
-      "first_name": "Bradly",
-      "last_name": "Pennell",
-      "gender": "Polygender",
-      "domain": "topsy.com",
-      "email": "bradly.pennell@topsy.com",
-      "image": "http://dummyimage.com/160x184.png/dddddd/000000"
-    }
-  ],
   "users": [
     {
       "idUser": "71819",
@@ -98,35 +6,32 @@
       "password": "",
       "name": "Lộc Trần",
       "name_2": "heo",
-      "phone": "326569999",
+      "phone": "0326569999",
       "address": "Quảng Bình,Thôn Đồng Giang,Chưa rõ",
-      "address_detail": "123 dong khoi",
+      "address_details": "123 dong khoi",
       "isAdmin": false,
       "img": "http://res.cloudinary.com/dy8145o0x/image/upload/v1628693190/newFolders/ysdkmtpekusqgy4ddlmp.jpg",
       "googleId": "114561790319734404992",
       "facebookId": "",
-      "id": 1,
+      "id": "71819",
       "info_1": {
         "gender": "nam",
         "date": "3",
         "month": "10",
         "year": "2019"
+      },
+      "province": {
+        "label": "Cà Mau",
+        "value": 5
+      },
+      "district": {
+        "label": "Tỉnh Cà Mau",
+        "value": 729
+      },
+      "ward": {
+        "label": "Phường 7",
+        "value": 5449
       }
-    },
-    {
-      "idUser": "16138",
-      "email": "loc123@gmail.com",
-      "password": "loc123",
-      "name": "",
-      "name_2": "loc tran",
-      "phone": "326569999",
-      "address": "Hòa Bình,Huyện Lương Sơn,Xã Hợp Thanh",
-      "address_detail": "123 dong khoi",
-      "isAdmin": false,
-      "img": "http://res.cloudinary.com/dy8145o0x/image/upload/v1628862262/newFolders/pubhhcagerdbvolas0qs.jpg",
-      "googleId": "",
-      "facebookId": "",
-      "id": 2
     },
     {
       "idUser": "54896",
@@ -134,9 +39,9 @@
       "password": "",
       "name": "Bùi Lộc",
       "name_2": "heo",
-      "phone": "326569999",
+      "phone": "0326569999",
       "address": "Phú Thọ,Huyện Thanh Sơn,Xã Thạch Khoán",
-      "address_detail": "123 dong khoi",
+      "address_details": "123 dong khoi",
       "info_1": {
         "date": "4",
         "month": "5",
@@ -146,7 +51,73 @@
       "img": "http://res.cloudinary.com/dy8145o0x/image/upload/v1628696668/newFolders/oiu7aeljjrmzvbjwgyp0.jpg",
       "googleId": "102688894747372582255",
       "facebookId": "",
-      "id": 3
+      "id": "54896",
+      "province": {
+        "label": "Hà Nội",
+        "value": 3
+      },
+      "district": {
+        "label": "Quận Hai Bà Trưng",
+        "value": 134
+      },
+      "ward": {
+        "label": "Phường Bạch Mai",
+        "value": 1119
+      }
+    },
+    {
+      "id": "1638194708178",
+      "email": "email@email.com",
+      "password": "",
+      "full_name": "",
+      "name": "khach C",
+      "phone": "0333766842",
+      "province": {
+        "label": "Cà Mau",
+        "value": 5
+      },
+      "district": {
+        "label": "Tỉnh Cà Mau",
+        "value": 729
+      },
+      "ward": {
+        "label": "Phường 7",
+        "value": 5449
+      },
+      "address_details": "23 đồng khởi",
+      "isAdmin": false,
+      "img": "https://png.pngtree.com/png-vector/20190618/ourlarge/pngtree-personalpersonalizationprofileuser-abstract-circle-backgro-png-image_1489146.jpg",
+      "note": "giao nhanh ",
+      "googleId": "",
+      "facebookId": "",
+      "createdAt": 1638194708240
+    },
+    {
+      "id": "1638197246422",
+      "email": "toan@immexgroup.com",
+      "password": "12345678",
+      "full_name": "",
+      "name": "Khách B",
+      "phone": "0333766842",
+      "province": {
+        "label": "Hà Nội",
+        "value": 3
+      },
+      "district": {
+        "label": "Huyện Ba Vì",
+        "value": 427
+      },
+      "ward": {
+        "label": "Xã Ba Trại",
+        "value": 5690
+      },
+      "address_details": "23 đồng khởi 256",
+      "isAdmin": false,
+      "img": "https://png.pngtree.com/png-vector/20190618/ourlarge/pngtree-personalpersonalizationprofileuser-abstract-circle-backgro-png-image_1489146.jpg",
+      "note": "hellllooooo",
+      "googleId": "",
+      "facebookId": "",
+      "createdAt": 1638197246506
     }
   ],
   "products": [
@@ -175,7 +146,7 @@
       "priceCurrent": "1.080.000",
       "category": "my pham",
       "quantity": "100",
-      "description": "Set Phấn chống nắng dưỡng trắng Ohui Ultimate Brightening Varnishing Pact\\n\\n→ Công dụng Phấn phủ Ohui :\\n✔Phấn phủ giúp nâng cao độ bền màu của lớp trang điểm. Hoàn chỉnh nếp da láng mượt, không bị khô.\\n✔Bột phấn siêu nhỏ siêu mịn có khả năng che phủ mọi khuyết điểm trên da và vùng da xấu.\\n✔Tính năng chống nắng. Với chỉ số chống nắng lên tới SPF30 PA++.\\nPhấn phủ thân thiện với mọi làn da, bột phấn siêu nhỏ, siêu mịn\\n→ Hướng dẫn sử dụng :\\nDùng phấn phủ sau khi đánh lớp kem lót trang điểm và kem nền.\\nDùng chổi hoặc bông phấn chấm phấn vừa đủ sau đó đánh đều lên các vùng da.\\n\\nKhuyến mại:\\n- Tặng kèm sữa rửa mặt ohui 40ml và 3 bông phấn.",
+      "description": "Set Phấn chống nắng dưỡng trắng Ohui Ultimate Brightening Varnishing Pact",
       "favorite": "true",
       "discountPercent": "10",
       "country": "Hàn Quốc",
@@ -308,47 +279,9 @@
       "sold": "10"
     },
     {
-      "id": "95976",
-      "name": "Set Ohui Xanh mini PRIME ADVANCER 3 món",
-      "image": "https://img.abaha.vn/photos/resized/1024x/83-1574920726-myphamohui-lgvina.png",
-      "priceOld": "700.000",
-      "priceCurrent": "400.000",
-      "category": "my pham",
-      "quantity": "100",
-      "description": "TRẺ HOÁ TRẮNG SÁNG DA. Dùng mà da Săn mượt sáng bóng như da em bé lun. Trông sắc da khoẻ đẹp tràn đầy sức sống.\\n- Dùng cho mọi loại da mụn dầu hay da nhạy cảm luôn",
-      "favorite": "true",
-      "discountPercent": "42.8",
-      "country": "Hàn Quốc",
-      "company": "Cty TNHH mỹ phẩm Việt - Hàn",
-      "types": [
-        "K1",
-        "K2",
-        "K3"
-      ],
-      "starRating": "5",
-      "sold": "12"
-    },
-    {
-      "id": "07621",
-      "name": "NƯỚC HỒNG SÂM CAO CẤP LG HÀN QUỐC",
-      "image": "https://img.abaha.vn/photos/resized/1024x/73-1573186771-myohui.png",
-      "priceOld": "3.300.000",
-      "priceCurrent": "2.970.000",
-      "category": "thuc pham chuc nang",
-      "quantity": "100",
-      "description": "Công dụng của Hồng sâm :\\n\\nTăng cường hệ miễn dịch và sức đề kháng cho cơ thể.\\nBổ sung dưỡng chất cho những người hay ốm yếu hay đang trong giai đoạn dưỡng bệnh, sau điều trị, phẫu thuật.\\nChống lão hóa và làm đẹp da.\\nKích thích hoạt động của não, giảm stress căng thẳng, tập trung tinh thần trí óc học tập, làm việc.\\nĐiều hòa huyết áp và tim mạch, phòng chống loãng xương.\\nCải thiện tiền mãn kinh, tăng cường sinh lý.\\nChống ung thư, viêm dạ dày, đại tràng\\nTăng thị lực và năng lực ghi nhớ.",
-      "favorite": "true",
-      "discountPercent": "10",
-      "country": "Hàn Quốc",
-      "company": "Cty TNHH mỹ phẩm Việt - Hàn",
-      "types": [],
-      "starRating": "4",
-      "sold": "4"
-    },
-    {
-      "id": "76221",
+      "id": "7524",
       "name": "Nước Hoa Xịt Thơm Toàn Thân ShiMang Body Mist 50ML NH5 Shi mang",
-      "image": "https://cf.shopee.vn/file/e043fef76b896ec272e744155dc6e884",
+      "image": "https://product.hstatic.net/1000150581/product/812121103-2__1__73806f65b21f45b49e277930271ce5e7_grande.jpg",
       "priceOld": "40.000",
       "priceCurrent": "24.000",
       "category": "nuoc hoa",
@@ -364,18 +297,100 @@
       ],
       "starRating": "4",
       "sold": "32"
+    },
+    {
+      "id": "7284",
+      "name": "Nước Hoa Xịt Thơm Toàn Thân ShiMang Body Mist 50ML NH5 Shi mang",
+      "image": "https://product.hstatic.net/1000150581/product/812037718-3__11__852f74e9f0244df9a3f43e1989531339_grande.jpg",
+      "priceOld": "40.000",
+      "priceCurrent": "24.000",
+      "category": "nuoc hoa",
+      "quantity": "100",
+      "description": "(Bán Buôn Sỉ) Nước Hoa Xịt Thơm Toàn Thân ShiMang Body Mist 50ML NH5 Shi mang\nGiới thiệu Nước Hoa Xịt Thơm Toàn Thân ShiMang Body Mist 50ML\n- Thương hiệu: ShiMang \n- Dung tích: 50ml \n- Nước Hoa Xịt Thơm Toàn Thân ShiMang Body Mist 50ML Có rất nhiều mùi hương cho các nàng tha hồ lựa chọn nhé:",
+      "favorite": "true",
+      "discountPercent": "40",
+      "country": "Việt Nam",
+      "company": "Cty TNHH mỹ phẩm Việt - Hàn",
+      "types": [
+        "Trắng",
+        "Hồng"
+      ],
+      "starRating": "4",
+      "sold": "32"
+    },
+    {
+      "id": "1638264884133",
+      "disable": false,
+      "starRating": 0,
+      "category": {
+        "value": 1,
+        "label": "Giày nam"
+      },
+      "image": "https://product.hstatic.net/1000150581/product/812037718-3__11__852f74e9f0244df9a3f43e1989531339_grande.jpg",
+      "price_current": "311211",
+      "name": "giày adidas",
+      "description": "hellooooooo",
+      "price_old": 124141242,
+      "createdAt": 1638264884194,
+      "discount": {
+        "value": 20,
+        "label": "20%"
+      }
+    },
+    {
+      "id": "1638265370840",
+      "disable": false,
+      "starRating": 0,
+      "category": {
+        "value": 4,
+        "label": "Giày tây"
+      },
+      "image": "https://product.hstatic.net/1000150581/product/812121103-2__1__73806f65b21f45b49e277930271ce5e7_grande.jpg",
+      "price_current": "1241521",
+      "name": "Giay B",
+      "description": "dehwhaba",
+      "price_old": 1251512,
+      "createdAt": 1638265370888
+    },
+    {
+      "id": "1638278159108",
+      "disable": false,
+      "starRating": 0,
+      "category": {
+        "value": 4,
+        "label": "Giày tây"
+      },
+      "image": "https://product.hstatic.net/1000150581/product/822138887-1_1__60139d315dcc4c9399a84fbef9d6ea8a_grande.jpg",
+      "price_current": "12414124",
+      "name": "giày abc",
+      "description": "hello",
+      "price_old": 142142551,
+      "createdAt": 1638278159162
+    },
+    {
+      "id": "1638283311583",
+      "disable": false,
+      "starRating": 0,
+      "category": {
+        "value": 3,
+        "label": "Giày thể thao"
+      },
+      "image": "https://product.hstatic.net/1000150581/product/822138887-1_1__60139d315dcc4c9399a84fbef9d6ea8a_grande.jpg",
+      "price_current": "311211",
+      "name": "giay thê thao",
+      "description": "ánvskavmaskvn 121nf31",
+      "discount": {
+        "value": 30,
+        "label": "30%"
+      },
+      "price_old": 1214124,
+      "createdAt": 1638283311651
     }
   ],
   "favorites": [
     {
       "idUser": "16138",
-      "products": [
-        {
-          "productId": "95976",
-          "amount": 2,
-          "type": "K2"
-        }
-      ],
+      "products": [],
       "id": 1
     },
     {
@@ -387,173 +402,50 @@
       "idUser": "54896",
       "products": [],
       "id": 3
-    }
-  ],
-  "order": [
+    },
     {
-      "infoUser": {
-        "idUser": "16138",
-        "email": "loc123@gmail.com",
-        "password": "loc123",
-        "name": "",
-        "name_2": "loc tran",
-        "phone": "326569999",
-        "address": "Hòa Bình,Huyện Lương Sơn,Xã Hợp Thanh",
-        "address_detail": "123 dong khoi",
-        "isAdmin": false,
-        "img": "http://res.cloudinary.com/dy8145o0x/image/upload/v1628862262/newFolders/pubhhcagerdbvolas0qs.jpg",
-        "googleId": "",
-        "facebookId": "",
-        "id": 2
-      },
+      "idUser": "47923",
       "products": [
         {
-          "id": "76221",
-          "name": "Nước Hoa Xịt Thơm Toàn Thân ShiMang Body Mist 50ML NH5 Shi mang",
-          "image": "https://cf.shopee.vn/file/e043fef76b896ec272e744155dc6e884",
-          "priceOld": "40.000",
-          "priceCurrent": "24.000",
+          "productId": "7284",
+          "amount": 2,
+          "type": "Trắng"
+        },
+        {
+          "productId": "7524",
           "amount": 1,
           "type": "Hồng"
         }
       ],
+      "id": 4
+    }
+  ],
+  "orders": [
+    {
+      "id":"1315121741421",
+      "idUser": "1638194708178",
+      "idProduct": "1638264884133",
+      "quantity": 2,
+      "status": "unconfirmed",
       "total": {
         "itemsPrice": "24.000",
         "shippingPrice": "40.000",
         "totalPrice": "64.000"
       },
-      "status": "unconfirmed",
-      "orderDate": "13-7-2021 22:55:42",
-      "id": 1
+      "reason": "Muốn thay đổi địa chỉ"
     },
     {
-      "infoUser": {
-        "idUser": "16138",
-        "email": "loc123@gmail.com",
-        "password": "loc123",
-        "name": "",
-        "name_2": "loc tran",
-        "phone": "326569999",
-        "address": "Hòa Bình,Huyện Lương Sơn,Xã Hợp Thanh",
-        "address_detail": "123 dong khoi",
-        "isAdmin": false,
-        "img": "http://res.cloudinary.com/dy8145o0x/image/upload/v1628862262/newFolders/pubhhcagerdbvolas0qs.jpg",
-        "googleId": "",
-        "facebookId": "",
-        "id": 2
-      },
-      "products": [
-        {
-          "id": "76221",
-          "name": "Nước Hoa Xịt Thơm Toàn Thân ShiMang Body Mist 50ML NH5 Shi mang",
-          "image": "https://cf.shopee.vn/file/e043fef76b896ec272e744155dc6e884",
-          "priceOld": "40.000",
-          "priceCurrent": "24.000",
-          "amount": 2,
-          "type": "Hồng"
-        }
-      ],
+      "id":"1315121741421",
+      "idUser": "1638197246422",
+      "idProduct": "1638278159108",
+      "quantity": 2,
+      "status": "unconfirmed",
       "total": {
-        "itemsPrice": "48.000",
+        "itemsPrice": "24.000",
         "shippingPrice": "40.000",
-        "totalPrice": "88.000"
+        "totalPrice": "64.000"
       },
-      "status": "unconfirmed",
-      "orderDate": "13-7-2021 23:12:52",
-      "id": 2
-    },
-    {
-      "infoUser": {
-        "idUser": "16138",
-        "email": "loc123@gmail.com",
-        "password": "loc123",
-        "name": "",
-        "name_2": "loc tran",
-        "phone": "326569999",
-        "address": "Hòa Bình,Huyện Lương Sơn,Xã Hợp Thanh",
-        "address_detail": "123 dong khoi",
-        "isAdmin": false,
-        "img": "http://res.cloudinary.com/dy8145o0x/image/upload/v1628862262/newFolders/pubhhcagerdbvolas0qs.jpg",
-        "googleId": "",
-        "facebookId": "",
-        "id": 2
-      },
-      "products": [
-        {
-          "id": "60317",
-          "name": "TINH CHẤT AMPOULE SERUM OHUI XANH 20ML",
-          "image": "https://img.abaha.vn/photos/resized/1024x/83-1574916494-myphamohui-lgvina.png",
-          "priceOld": "750.000",
-          "priceCurrent": "450.000",
-          "amount": 3,
-          "type": "P02"
-        }
-      ],
-      "total": {
-        "itemsPrice": "1.350.000",
-        "shippingPrice": "40.000",
-        "totalPrice": "1.390.000"
-      },
-      "status": "unconfirmed",
-      "orderDate": "14-7-2021 10:7:36",
-      "id": 3
-    },
-    {
-      "infoUser": {
-        "idUser": "71819",
-        "email": "napdantv999@gmail.com",
-        "password": "",
-        "name": "Lộc Trần",
-        "name_2": "heo",
-        "phone": "326569999",
-        "address": "Quảng Bình,Thôn Đồng Giang,Chưa rõ",
-        "address_detail": "123 dong khoi",
-        "isAdmin": false,
-        "img": "http://res.cloudinary.com/dy8145o0x/image/upload/v1628693190/newFolders/ysdkmtpekusqgy4ddlmp.jpg",
-        "googleId": "114561790319734404992",
-        "facebookId": "",
-        "id": 1,
-        "info_1": {
-          "gender": "nam",
-          "date": "3",
-          "month": "10",
-          "year": "2019"
-        }
-      },
-      "products": [
-        {
-          "id": "74601",
-          "name": "Tinh chất vàng tái sinh Ohui Thefirst 20ml",
-          "image": "https://img.abaha.vn/photos/resized/1024x/73-1574399953-myohui.png",
-          "priceOld": "40.000.000",
-          "priceCurrent": "1.300.000",
-          "amount": 2,
-          "type": "K02"
-        }
-      ],
-      "total": {
-        "itemsPrice": "2.600.000",
-        "shippingPrice": "0.000",
-        "totalPrice": "2.600.000"
-      },
-      "status": "canceled",
-      "orderDate": "14-9-2021 22:55:25",
-      "id": 4,
-      "reason": "Đổi ý, không muốn mua nữa"
-    }
-  ],
-  "users_fake": [
-    {
-      "id": 1,
-      "name": "Quang Huỳnh"
-    },
-    {
-      "id": 2,
-      "name": "Quỳnh"
-    },
-    {
-      "id": 3,
-      "name": "Ly Ly"
+      "reason": "Muốn thay đổi địa chỉ"
     }
   ],
   "comments": [
@@ -605,18 +497,6 @@
       ]
     },
     {
-      "id": "95976",
-      "productId": "95976",
-      "commentList": [
-        {
-          "id": 1,
-          "userId": "71819",
-          "ratings": 3,
-          "content": "tam duoc"
-        }
-      ]
-    },
-    {
       "id": "42499",
       "productId": "42499",
       "commentList": [
@@ -625,24 +505,6 @@
           "userId": "71819",
           "ratings": 5,
           "content": "ok day"
-        }
-      ]
-    },
-    {
-      "id": "07621",
-      "productId": "07621",
-      "commentList": [
-        {
-          "id": 1,
-          "userId": "71819",
-          "ratings": 3,
-          "content": "ngon lam em oi"
-        },
-        {
-          "id": 2,
-          "userId": "71819",
-          "ratings": 5,
-          "content": "tuyệt vời"
         }
       ]
     },
@@ -659,22 +521,26 @@
       ]
     }
   ],
-  "todolist": [
+  "categories": [
     {
-      "id": 1,
-      "title": "di choi"
+      "value": 1,
+      "label": "Giày nam"
     },
     {
-      "id": 2,
-      "title": "di hoc"
+      "value": 2,
+      "label": "Giày nữ"
     },
     {
-      "id": 3,
-      "title": "di lam"
+      "value": 3,
+      "label": "Giày thể thao"
     },
     {
-      "id": 4,
-      "title": "di nhau"
+      "value": 4,
+      "label": "Giày tây"
+    },
+    {
+      "value": 5,
+      "label": "Giày boot"
     }
   ]
 }
